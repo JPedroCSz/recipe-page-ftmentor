@@ -1,0 +1,39 @@
+@media screen and (max-width: 600px) {
+  main {
+    width: 375px;
+  }
+
+  figure {
+    width: 315px;
+  }
+}
+
+
+@media screen and (max-width: 375px) {
+  body {
+    background-color: var(--rose-white);
+  }
+
+  main {
+    width: 100vw;
+    margin: 0px auto 0px auto;
+    padding: 0px;
+  }
+
+  figure {
+    width: 100%;
+    padding: 0px;
+  }
+
+  img {
+    border-radius: 0%;
+  }
+
+  header h1, header p, header ul {
+    padding: 0px 30px 0px 30px;
+  }
+
+  .ingredientes, .instrucoes, .nutricao {
+    padding: 0px 30px 0px 30px;
+  }  
+} 
