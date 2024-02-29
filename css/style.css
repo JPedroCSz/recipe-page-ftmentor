@@ -64,7 +64,7 @@ h3 {
   font-weight: 400;
   font-size: 1em;
   color: var(--dark-raspberry);
-  margin-top: 40px;
+  margin-top: 10px;
   text-indent: 30px;
 }
 
@@ -74,7 +74,7 @@ p {
   font-size: 0.8em;
   text-align: justify;
   color: var(--dark-charcoal);
-  margin: 10px 0px 10px 0px;
+  margin: 10px 0px 20px 0px;
 }
 
 strong {
@@ -87,7 +87,9 @@ span {
 }
 
 header ul {
-  padding: 10px;
+  background-color: rgba(255, 192, 203, 0.400);
+  padding: 10px 10px 20px 10px;
+  border-radius: 10px;
   list-style-position: inside;
   color: var(--dark-raspberry);
   text-indent: 35px;
@@ -105,11 +107,6 @@ header ul li {
 .ingredientes ul li {
   text-indent: 15px;
 }
-
-/* .instrucoes {
-  padding-bottom: 5px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-}  */
 
 .instrucoes ol {
   padding: 20px;
@@ -136,8 +133,7 @@ tr {
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
-th,
-td {
+th, td {
   padding: 10px;
   font-family: var(--fonte-texto);
   font-size: 0.8em;
